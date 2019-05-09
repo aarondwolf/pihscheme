@@ -2,27 +2,30 @@
 
 	PIH Scheme for Stata Graphs
 	***************************
-	
+
 	This .do file creates color styles for PIH orange, purple, and blue (teal),
 	plus a user-defined yellow and green to flesh out teh palette.
-	
+
 	The file then writes a new Stata scheme based on s2mono (grayscale), with
 	a white background and light-grey plot region, and with the PIH colors for
 	each plot.
-	
-	The files are all written to the users personal Stata directory 
+
+	The files are all written to the users personal Stata directory
 	(c(sysdir_personal)).
-	
+
 	HOW TO RUN:
 	Simply run this .do file (with no changes), and then re-start Stata
 	for the colors too be incorporated into its directory.
-	
+
 	ATTRIBUTION:
-	This scheme is based largely off og the plottig scheme developed by Daniel 
-	Bischof	(https://www.stata-journal.com/article.html?article=gr0070). The only chages
-	are to the main plot colors (changing to PIH colors).
-	
-	
+	This scheme is based off of the plottig scheme developed by Daniel
+	Bischof	(https://www.stata-journal.com/article.html?article=gr0070). The only
+	changes are to the main plot colors (changing to PIH colors). Everything
+	else in the scheme was inherited, and this .do file simply writes that Scheme
+	out line by line into a new .scheme file after creating the color .style
+	files.
+
+
 	Written by:			 Aaron Wolf (awolf@pih.org), Feb 27, 2019
 	Last Modified by:	 Aaron Wolf (awolf@pih.org), Feb 27, 2019
 
@@ -2206,7 +2209,7 @@ file close scheme
 
 
 
-exit 
+exit
 
 ********************************************
 
@@ -2214,25 +2217,25 @@ exit
 clear
 sysuse auto
 # delimit ;
-	twoway (scatter price mpg if foreign == 0) (scatter price mpg if foreign == 1) (qfit price mpg), 
+	twoway (scatter price mpg if foreign == 0) (scatter price mpg if foreign == 1) (qfit price mpg),
 	scheme(pih)
 	legend(order(1 "Domestic" 2 "Foreign" 3 "Quadratic Prediction") cols(3) pos(6))
 	title(Price by Mileage)
-	
+
 	;
 # delimit cr
 
 
 
 
-clear 
+clear
 set obs 10
 gen x = _n
 set seed 987
 forvalues i = 1/15 {
 	gen y`i' = rnormal(1,0.2)
 	local graphs "`graphs' (scatter y`i' x)"
-	
+
 }
 
 twoway `graphs', scheme(pih)
@@ -2241,8 +2244,3 @@ twoway `graphs', scheme(pih)
 cap confirm file "`c(sysdir_personal)'/s/scheme-pih.scheme"
 	if _rc == 0 set scheme pih
 	else set scheme sj
-
-
-
-
-

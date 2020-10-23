@@ -1,4 +1,4 @@
-# scheme-pih
+# pihscheme
 
 ---
 
@@ -13,7 +13,7 @@ The Partners in Health (PIH) Stata scheme provides a quick set of options for mo
 The current version is still a work in progress. To install, user can use the net install command to download from the project's Github page:
 
 ```
-net install scheme-pih, from("https://aarondwolf.github.io/scheme-pih")
+net install scheme-pih, from("https://aarondwolf.github.io/pihscheme")
 ```
 
 ### Usage
@@ -47,6 +47,6 @@ graph set window fontfacesymbol <font-name>
 
 ## Attribution
 
-The PIH scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github (https://github.com/aarondwolf/scheme-pih). Questions can be directed to aaron [dot] wolf [at] yale [dot] edu. 
+The PIH scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github (https://github.com/aarondwolf/pihscheme). Questions can be directed to aaron [dot] wolf [at] yale [dot] edu. 
 
 This scheme used the user-written scheme *cleanplots* as a base, with alterations made to reflect Yale's colors and stylistic preferences. *cleanplots* was created by Trenton Mize, and documentation can be found at https://www.trentonmize.com/software/cleanplots. *cleanplots* was itself influenced by Daniel Bischof's very excellent *plotplain* scheme, documentation for which can be found at https://www.stata-journal.com/article.html?article=gr0070. 

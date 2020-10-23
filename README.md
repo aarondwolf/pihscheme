@@ -49,4 +49,4 @@ graph set window fontfacesymbol <font-name>
 
 The PIH scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github (https://github.com/aarondwolf/pihscheme). Questions can be directed to aaron [dot] wolf [at] yale [dot] edu. 
 
-This scheme used the user-written scheme *cleanplots* as a base, with alterations made to reflect Yale's colors and stylistic preferences. *cleanplots* was created by Trenton Mize, and documentation can be found at https://www.trentonmize.com/software/cleanplots. *cleanplots* was itself influenced by Daniel Bischof's very excellent *plotplain* scheme, documentation for which can be found at https://www.stata-journal.com/article.html?article=gr0070. 
+This scheme used the user-written scheme *cleanplots* as a base, with alterations made to reflect PIH's colors and stylistic preferences. *cleanplots* was created by Trenton Mize, and documentation can be found at https://www.trentonmize.com/software/cleanplots. *cleanplots* was itself influenced by Daniel Bischof's very excellent *plotplain* scheme, documentation for which can be found at https://www.stata-journal.com/article.html?article=gr0070. 

@@ -1,0 +1,27 @@
+v 1.0
+d pihscheme.  PIH-branded Stata scheme for graphs
+d Created by Aaron Wolf (aaron.wolf@yale.edu)
+d
+d Note: PIH scheme provides the following new colors for
+d use in Stata graphs:
+d   pihorange, pihpurple, pihgreen, pihblue, pihyellow
+d As well as their light and dark variations:
+d   pihltorange, pihltpurple, pihltgreen, pihltblue, pihltyellow,
+d   pihdkorange, pihdkpurple, pihdkgreen, pihdkblue, pihdkyellow
+
+F scheme-pih.scheme
+F colors/color-pihorange.style
+F colors/color-pihpurple.style
+F colors/color-pihgreen.style
+F colors/color-pihblue.style
+F colors/color-pihyellow.style
+F colors/color-pihltorange.style
+F colors/color-pihltpurple.style
+F colors/color-pihltgreen.style
+F colors/color-pihltblue.style
+F colors/color-pihltyellow.style
+F colors/color-pihdkorange.style
+F colors/color-pihdkpurple.style
+F colors/color-pihdkgreen.style
+F colors/color-pihdkblue.style
+F colors/color-pihdkyellow.style

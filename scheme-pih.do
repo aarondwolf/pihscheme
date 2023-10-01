@@ -26,8 +26,8 @@
 	files.
 
 
-	Written by:			 Aaron Wolf (awolf@pih.org), Feb 27, 2019
-	Last Modified by:	 Aaron Wolf (awolf@pih.org), Feb 27, 2019
+	Written by:			 Aaron Wolf (aaron.wolf@u.northwestern.edu), Feb 27, 2019
+	Last Modified by:	 Aaron Wolf (aaron.wolf@u.northwestern.edu), Feb 27, 2019
 
 
 *******************************************************************************/

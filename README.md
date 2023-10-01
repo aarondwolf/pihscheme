@@ -35,6 +35,6 @@ twoway  (scatter price mpg if foreign == 0) ///
 
 ## Attribution
 
-The PIH scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github ([https://github.com/aarondwolf/pihscheme](https://github.com/aarondwolf/pihscheme)). Questions can be directed to aaron [dot] wolf [at] yale [dot] edu. 
+The PIH scheme was written by Aaron Wolf. Bugs can be reported via the repository at Github ([https://github.com/aarondwolf/pihscheme](https://github.com/aarondwolf/pihscheme)). Questions can be directed to aaron [dot] wolf [at] u [dot] northwestern [dot] edu. 
 
 This scheme used the user-written scheme *cleanplots* as a base, with alterations made to reflect PIH'scolors and stylistic preferences. *cleanplots* was created by Trenton Mize, and documentation can be found at https://www.trentonmize.com/software/cleanplots. *cleanplots* was itself influenced by Daniel Bischof's very excellent *plotplain* scheme, documentation for which can be found at https://www.stata-journal.com/article.html?article=gr0070. 
